@@ -1,3 +1,7 @@
+*{
+overflow-x: hidden;
+}
+
 .fa-edit:before{
   color: blue;
 }
@@ -5,3 +9,40 @@
 .fa-trash-alt:before {
   color: red;
 }
+
+.btn-info {
+  color: #fff;
+  background-color: #f7450f;
+  border: none;
+}
+.btn-info:hover {
+  background-color: #fff;
+  color: #f7450f;
+  border: 2px solid #f7450f;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+  z-index: 3;
+  color: #fff;
+  cursor: default;
+  background-color: #f7450f;
+  border-color: #f7450f;
+}
+
+.pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover {
+  color: #f7450f;
+  cursor: not-allowed;
+  background-color: #fff;
+  border-color: #f7450f;
+}
+
+.h1, h1 {
+  font-size: 40px;
+  color:#f7450f ;
+}
+
+.table {
+  border: 1px solid #f7450f;
+  max-width: 1000px !important;
+}
+
