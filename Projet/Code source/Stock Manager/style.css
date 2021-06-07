@@ -3,11 +3,11 @@ overflow-x: hidden;
 }
 
 .fa-edit:before{
-  color: blue;
+  color: #1250d6;
 }
 
 .fa-trash-alt:before {
-  color: red;
+  color: #f7450f;
 }
 
 .btn-info {
@@ -16,6 +16,12 @@ overflow-x: hidden;
   border: none;
 }
 .btn-info:hover {
+  background-color: #fff;
+  color: #f7450f;
+  border: 2px solid #f7450f;
+}
+
+.btn-info:active {
   background-color: #fff;
   color: #f7450f;
   border: 2px solid #f7450f;
@@ -45,4 +51,42 @@ overflow-x: hidden;
   border: 1px solid #f7450f;
   max-width: 1000px !important;
 }
+
+div.dataTables_wrapper div.dataTables_filter input {
+  margin-left: 0.5em;
+  display: inline-block;
+  width: auto;
+  border: 1px solid #f7450f;
+}
+
+div.dataTables_wrapper div.dataTables_length select {
+  width: 75px;
+  display: inline-block;
+  border: 1px solid #f7450f;
+}
+
+select.input-sm {
+  height: 30px;
+  line-height: 30px;
+  color: #f7450f;
+}
+
+div.dataTables_wrapper div.dataTables_length label {
+  color: #f7450f;
+}
+
+div.dataTables_wrapper div.dataTables_filter label {
+  color: #f7450f;
+}
+
+div.dataTables_wrapper div.dataTables_info {
+  color: #f7450f;
+}
+
+.table>caption+thead>tr:first-child>td, .table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>td, .table>thead:first-child>tr:first-child>th {
+  color: #f7450f;
+}
+
+
+
 
