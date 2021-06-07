@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$('#add_button').click(function(){
 		$('#user_form')[0].reset();
-		$('.modal-title').text("Add User");
+		$('.modal-title').text("Add Product");
 		$('#action').val("Add");
 		$('#operation').val("Add");
 		$('#user_uploaded_image').html('');
@@ -59,7 +59,7 @@ $(document).ready(function(){
 		}
 		else
 		{
-			alert("Both Fields are Required");
+			alert("All Fields are Required");
 		}
 	});
 	

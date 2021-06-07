@@ -3,11 +3,11 @@ overflow-x: hidden;
 }
 
 .fa-edit:before{
-  color: blue;
+  color: #1250d6;
 }
 
 .fa-trash-alt:before {
-  color: red;
+  color: #f7450f;
 }
 
 .btn-info {
@@ -19,6 +19,22 @@ overflow-x: hidden;
   background-color: #fff;
   color: #f7450f;
   border: 2px solid #f7450f;
+}
+
+.btn-info.focus, .btn-info:focus {
+  color: #fff;
+  background-color: #f7450f;
+}
+
+.btn-info.active, .btn-info:active {
+  color: #fff;
+  background-color: #f7450f;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #f7450f;
+  border-color: #f7450f;
 }
 
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
@@ -45,4 +61,14 @@ overflow-x: hidden;
   border: 1px solid #f7450f;
   max-width: 1000px !important;
 }
+
+div.dataTables_wrapper div.dataTables_filter input {
+  margin-left: 0.5em;
+  display: inline-block;
+  width: auto;
+  border: 1px solid #f7450f;
+}
+
+
+/*  */
 
