@@ -3,7 +3,7 @@ overflow-x: hidden;
 }
 
 .fa-edit:before{
-  color: #1250d6;
+  color: #A42CD6;
 }
 
 .fa-trash-alt:before {
@@ -102,6 +102,14 @@ div.dataTables_wrapper div.dataTables_info {
 
 .table>caption+thead>tr:first-child>td, .table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>td, .table>thead:first-child>tr:first-child>th {
   color: #f7450f;
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+  border: 1px solid #f7450f;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+  background-color: #fff2ee;
 }
 
 
